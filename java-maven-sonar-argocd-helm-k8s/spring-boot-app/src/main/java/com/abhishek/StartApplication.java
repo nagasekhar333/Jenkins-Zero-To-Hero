@@ -19,6 +19,11 @@ public class StartApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(StartApplication.class, args);
+        System.out.println("Veera");
+        System.out.println("Veera");
+        System.out.println("Veera");
+        System.out.println("Veera");
+        System.out.println("Veera");
     }
 
 }
