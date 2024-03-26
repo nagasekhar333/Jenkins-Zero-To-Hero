@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'maven:3.8.5' // Use the Maven Docker image with version 3.8.5
+            image 'maven:3.6.3' // Use the Maven Docker image with version 3.6.3
             args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // Mount Docker socket to access the host's Docker daemon
         }
     }
